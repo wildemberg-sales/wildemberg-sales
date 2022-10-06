@@ -17,7 +17,7 @@ Link para o repositório da minha [Startup](https://github.com/Olympus-SWE), ond
 * Sistema de locadora de veiculos:
   * [Repositório do projeto](https://github.com/wildemberg-sales/projetoSistemaLocadora)
   
-* App para gestão para turmas de universidade, gamificado com tema feudal:
+* App para gestão de turmas de universidade, gamificado com tema feudal:
   * [Repositório do Projeto](https://github.com/Mateusas3s/DS-Feudo-Violeta)
 
 
