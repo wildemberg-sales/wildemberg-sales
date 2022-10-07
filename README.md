@@ -3,7 +3,6 @@
 ### Fique a vontade para olhar e pegar ideias!!! 😉
 
 Link para o meu [potifólio](https://github.com/wildemberg-sales/portifolio).  
-Link para o repositório da minha [Startup](https://github.com/Olympus-SWE), onde se encontra mais projetos nos quais fui o engenheiro responsável.
 
 ### Participações em Projetos como Dev :
 
@@ -22,6 +21,8 @@ Link para o repositório da minha [Startup](https://github.com/Olympus-SWE), ond
 
 
 <!--
+Link para o repositório da minha [Startup](https://github.com/Olympus-SWE), onde se encontra mais projetos nos quais fui o engenheiro responsável.
+
 **wildemberg-sales/wildemberg-sales** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
