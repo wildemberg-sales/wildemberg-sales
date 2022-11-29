@@ -1,18 +1,19 @@
 
 ## Hi guys! 👋<br>
 ### Me chamo Wildemberg, sou estudante de engenharia de software na UnB(Universidade de Brasília), e este é meu repositório, onde crio, organizo e guardo minhas ideias e projetos. 😄<br>
-### Fique a vontade para olhar e pegar ideias!!! 😉<br><br>Link para o meu [potifólio](https://github.com/wildemberg-sales/portifolio).  <br><br>
+### Fique a vontade para olhar e pegar ideias!!! 😉<br><br>Link para o meu [potifólio](https://github.com/wildemberg-sales/portifolio).  <br>
 
-### Participações em Projetos como Dev :<br><br>
-* Sistema de gerenciamento de patrimônio público da PCGO - Alectrion:<br>  
-* [Alectrion Documentação](https://github.com/fga-eps-mds/2022-1-Alectrion-DOC)<br>  
-* [Alectrion Front-end](https://github.com/fga-eps-mds/2022-1-Alectrion-FrontEnd)<br>
-*  [Alectrion Gateway](https://github.com/fga-eps-mds/2022-1-Alectrion-Gateway)<br>  
-* [Alectrion Equipament API](https://github.com/fga-eps-mds/2022-1-Alectrion-EquipamentApi)<br>
-*  [Alectrion User API](https://github.com/fga-eps-mds/2022-1-Alectrion-UserAPI)<br>  <br>
-* Sistema de locadora de veiculos:<br>  
-* [Repositório do projeto](https://github.com/wildemberg-sales/projetoSistemaLocadora)<br>  <br>* App para gestão de turmas de universidade, gamificado com tema feudal:<br>  
-* [Repositório do Projeto](https://github.com/Mateusas3s/DS-Feudo-Violeta)
+### Participações em Projetos como Dev :<br>
+* Sistema de gerenciamento de patrimônio público da PCGO - Alectrion:
+  * [Alectrion Documentação](https://github.com/fga-eps-mds/2022-1-Alectrion-DOC)
+  * [Alectrion Front-end](https://github.com/fga-eps-mds/2022-1-Alectrion-FrontEnd)
+  *  [Alectrion Gateway](https://github.com/fga-eps-mds/2022-1-Alectrion-Gateway)
+  * [Alectrion Equipament API](https://github.com/fga-eps-mds/2022-1-Alectrion-EquipamentApi)
+  *  [Alectrion User API](https://github.com/fga-eps-mds/2022-1-Alectrion-UserAPI)
+* Sistema de locadora de veiculos:
+  * [Repositório do projeto](https://github.com/wildemberg-sales/projetoSistemaLocadora)
+* App para gestão de turmas de universidade, gamificado com tema feudal:  
+  * [Repositório do Projeto](https://github.com/Mateusas3s/DS-Feudo-Violeta)
 
 
 ## 🌐 Socials:
@@ -28,9 +29,6 @@
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=wildemberg-sales&theme=radical&no-frame=false&no-bg=false&margin-w=4)
-
-### 😂 Random Dev Meme
-<img src="https://random-memer.herokuapp.com/" width="512px"/>
 
 ---
 [![](https://visitcount.itsvg.in/api?id=wildemberg-sales&icon=0&color=0)](https://visitcount.itsvg.in)
