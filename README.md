@@ -1,7 +1,8 @@
 
 ## Hi guys! 👋<br>
-### Me chamo Wildemberg, sou estudante de engenharia de software na UnB(Universidade de Brasília), e este é meu repositório, onde crio, organizo e guardo minhas ideias e projetos. 😄<br>
-### Fique a vontade para olhar e pegar ideias!!! 😉<br><br>Link para o meu [potifólio](https://github.com/wildemberg-sales/portifolio).  <br>
+### Me chamo Wildemberg, sou estudante de engenharia de software na UnB(Universidade de Brasília), e este é meu repositório, onde crio, organizo e guardo minhas ideias e projetos. 😄
+<br>
+Link para o meu [potifólio](https://github.com/wildemberg-sales/portifolio).
 
 ### Participações em Projetos como Dev :<br>
 * Sistema de gerenciamento de patrimônio público da PCGO - Alectrion:
