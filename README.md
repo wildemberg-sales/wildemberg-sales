@@ -1,5 +1,5 @@
 # 💫 Sobre Mim:
-🔭 Trabalhando atualmente como Freelancer desenvolvendo softwares para diversas empresas.<br>👯 Estou em busca de colaborar com empresas de desenvolvimento de software que atuem em diferentes áreas do desenvolvimento.<br>🌱 Atualmente estou aprendendo frameworks relacionados a Javascript e Typescript, tanto para front-end, quanto back-end. E também explorando novos horizontes com Python e  C.<br>
+🔭 Estou trabalhando atualmente como Freelancer, desenvolvendo soluções de software para empresas de diversos setores.<br>👯 Estou em busca de colaborar com empresas de desenvolvimento de software que atuem em diferentes áreas do desenvolvimento.<br>🌱 Atualmente estou aprendendo frameworks relacionados a Javascript e Typescript, tanto para front-end, quanto back-end. E também explorando novos horizontes com Python e C.<br>
 
 
 ## 🌐 Socials:
