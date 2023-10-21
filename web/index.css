@@ -16,11 +16,12 @@ body {
 
 .main h1{
     color: #fff;
-    font-size: 30px;
+    font-size: 35px;
 }
 .main svg{
     position: relative;
-    bottom: -20px;
+    bottom: -25px;
+    left: -15px;
     width: 40px;
 }
 
@@ -40,7 +41,7 @@ body {
 }
 .sobre_img{
     position: relative;
-    top: -150px;
+    top: -160px;
     margin-left: 32px;
 }
 .sobre_img img{
@@ -74,4 +75,56 @@ body {
     position: relative;
     top: auto;
     box-shadow:none;
+}
+
+.cursos{
+    background-color: #341058;
+}
+.cursos h1{
+    padding: 10px 20px 0;
+}
+
+.cursos-sobre{
+    padding: 50px 15% 100px;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+.cursos-sobre li{
+    border: 1px solid;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.projetos{
+    background-color: #BC6FF1;
+    
+}
+.projetos h1{
+    color: #000;
+    padding: 10px 20px 0;
+}
+
+.projeto{
+    padding: 60px 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-projeto{
+    width: 400px;
+    height: fit-content;
+}
+.separador-projeto{
+    width: 20px;
+    height: 400px;
+    margin: 0 calc(29% - 20px);
+}
+
+.par{
+    flex-direction: row-reverse;
 }
