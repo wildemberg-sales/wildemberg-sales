@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html,
+body {
+    max-width: 100vw;
+    overflow-x: hidden;
+    background-color: #e3e3e3;
+}
+
+.main h1{
+    color: #fff;
+    font-size: 30px;
+}
+.main svg{
+    position: relative;
+    bottom: -20px;
+    width: 40px;
+}
+
+.sobre h1{
+    background-color: #341058;
+    padding: 20px 0px 20px 446px;
+    margin-top: 150px;
+}
+.dados_sobre{
+    display: flex;
+    /* height: 350px; */
+}
+.dados_sobre p{
+    padding: 10px 150px 10px 50px;
+    font-weight: 700;
+    font-size: 22px;
+}
+.sobre_img{
+    position: relative;
+    top: -150px;
+    margin-left: 32px;
+}
+.sobre_img img{
+    border-radius: 10px;
+    width: 367px;
+}
+
+.tecnologia{
+    background-color: #5A0E7E;
+    color: #fff;
+}
+.tecnologia h1{
+    padding: 10px 20px 0;
+    background-color: #5A0E7E;
+}
+.tecnologia_slider{
+    padding: 100px 20%;
+    text-align: center;
+}
+.tecnologia_slider img{
+    width: 200px;
+    margin: 30px;
+    border-radius: 20px;
+    position: relative;
+    top: 40px;
+    box-shadow: 10px 10px 30px 10px rgb(0, 0, 0);
+}
+
+.swiper-slide-next img{
+    width: 250px;
+    position: relative;
+    top: auto;
+    box-shadow:none;
+}
