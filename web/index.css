@@ -70,7 +70,7 @@ body {
     box-shadow: 10px 10px 30px 10px rgb(0, 0, 0);
 }
 
-.swiper-slide-next img{
+.tecnologia_slider .swiper-slide-next img{
     width: 250px;
     position: relative;
     top: auto;
@@ -78,7 +78,8 @@ body {
 }
 
 .cursos{
-    background-color: #341058;
+    background-image: url('./images/background.jpg');
+    background-position: center;
 }
 .cursos h1{
     padding: 10px 20px 0;
@@ -107,6 +108,9 @@ body {
     color: #000;
     padding: 10px 20px 0;
 }
+.projetos-sobre{
+    padding: 0 5%;
+}
 
 .projeto{
     padding: 60px 15%;
@@ -116,15 +120,52 @@ body {
 }
 
 .img-projeto{
-    width: 400px;
-    height: fit-content;
+    width: 50%;
+    border-radius: 10px;
 }
 .separador-projeto{
-    width: 20px;
+    width: 10px;
     height: 400px;
-    margin: 0 calc(29% - 20px);
 }
 
-.par{
-    flex-direction: row-reverse;
+.img-pesquisa{
+    height: 270px;
+}
+
+.projeto-sobre{
+    max-width: 400px;
+}
+
+.link-icon{
+    position: relative;
+    bottom: -5px;
+    right: -5px;
+}
+
+.projeto-sobre a, .icon-social a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+}
+
+.info-footer{
+    padding: 250px 98px 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-social{
+    display: flex;
+    align-items: center;
+}
+.icon-social p{
+    margin: 0 10px;
+}
+
+.copywriter{
+    padding:10px;
 }
