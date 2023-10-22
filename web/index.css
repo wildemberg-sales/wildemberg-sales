@@ -32,7 +32,6 @@ body {
 }
 .dados_sobre{
     display: flex;
-    /* height: 350px; */
 }
 .dados_sobre p{
     padding: 10px 150px 10px 50px;
@@ -62,16 +61,16 @@ body {
     text-align: center;
 }
 .tecnologia_slider img{
-    width: 200px;
+    width: 50%;
     margin: 30px;
     border-radius: 20px;
     position: relative;
     top: 40px;
-    box-shadow: 10px 10px 30px 10px rgb(0, 0, 0);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 25);
 }
 
 .tecnologia_slider .swiper-slide-next img{
-    width: 250px;
+    width: 60%;
     position: relative;
     top: auto;
     box-shadow:none;
@@ -98,11 +97,11 @@ body {
     padding: 5px 10px;
     border-radius: 10px;
     margin-bottom: 20px;
+    margin-left: 30px;
 }
 
 .projetos{
     background-color: #BC6FF1;
-    
 }
 .projetos h1{
     color: #000;
@@ -125,7 +124,8 @@ body {
 }
 .separador-projeto{
     width: 10px;
-    height: 400px;
+    height: 350px;
+    margin: 0 10px;
 }
 
 .img-pesquisa{
@@ -158,9 +158,10 @@ footer{
     justify-content: space-around;
 }
 
-.icon-social{
-    
+.social{
+    margin-right: 20px;
 }
+
 .icon-social p{
     margin: 0 10px;
     font-size: 20px;
@@ -175,4 +176,74 @@ footer{
     display: flex;
     align-items: center;
     color: #fff;
+}
+
+#slide-container-mobile{
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    .sobre h1{
+        margin: 10px 0 0 0;
+        padding: 20px 10px ;
+    }
+    .dados_sobre{
+        display: block;
+    }
+    .sobre_img{
+        margin: 10px;
+        position: static;
+        text-align: center;
+    }
+    .dados_sobre p{
+        padding: 20px 10px;
+    }
+
+    #slide-container-web{
+        display: none;
+    }
+    #slide-container-mobile{
+        display: block;
+    }
+    .tecnologia_slider img{
+        position: static;
+    }
+
+    .cursos-sobre{
+        display: block;
+    }
+
+    .projeto{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .projeto h3{
+        font-size: 16px;
+        text-align: center;
+    }
+    .img-projeto{
+        width: 100%;
+    }
+    .separador-projeto{
+        display: none;
+    }
+
+    .info-footer{
+        display: block;
+        padding: 20px 10px;
+    }
+    .info-footer h2{
+        margin-top: 20px;
+    }
+
+    .icon-social p{
+        font-size: 18px;
+    }
+
+    .copywriter h3{
+        font-size: 15px;
+    }
+    .copywriter p{
+        font-size: 12px;
+    }
 }
