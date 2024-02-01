@@ -1,94 +1,25 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import FooterComponent from "@/components/FooterComponent/FooterComponent";
+import HeaderComponent from "@/components/HeaderComponent/HeaderComponent";
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+      <div className={styles.columns}>
+        <div className={styles.colum1}>
+          <h1>Wildemberg</h1>
+          <h2>SALES</h2>
+        </div>
+        <div className={styles.colum2}>
+          <a href="https://www.linkedin.com/in/wildemberg-sales-86439913b/" target="_blank"><img width="40" height="40" src="https://img.icons8.com/ios-filled/50/linkedin-2--v1.png" alt="linkedin-2--v1"/></a>
+          <a href="https://github.com/wildemberg-sales" target="_blank"><img width="40" height="40" src="https://img.icons8.com/ios-filled/50/github.png" alt="github"/></a>
+          <a href="https://instagram.com/wildemberg.sales" target="_blank"><img width="40" height="40" src="https://img.icons8.com/external-those-icons-fill-those-icons/50/external-Instagram-social-media-those-icons-fill-those-icons.png" alt="external-Instagram-social-media-those-icons-fill-those-icons"/></a>
         </div>
       </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+      <div className={styles.frase}>
+        <p>"lorem ipsum 2.0 turbinado na brasa da corrida"</p>
+        <p>Jorginho, Sacolé 2010</p>
       </div>
     </main>
   );
