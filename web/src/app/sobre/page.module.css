@@ -1,0 +1,39 @@
+.center{
+    max-width: 1500px;
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+    padding: 20px 0;
+}
+.main{
+    width: 100vw;
+    background-color: #060709;
+}
+.sobre{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.sobre img{
+    width: 100%;
+    max-width: 260px;
+}
+.sobre p{
+    max-width: 1000px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+.sobre span{
+    color:#267b8a;
+}
+.sobreImage{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.sobreImage a{
+    color: #fff;
+    text-decoration: none;
+}

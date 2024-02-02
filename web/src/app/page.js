@@ -1,7 +1,7 @@
-import Image from "next/image";
+"use client"
 import styles from "./page.module.css";
-import FooterComponent from "@/components/FooterComponent/FooterComponent";
-import HeaderComponent from "@/components/HeaderComponent/HeaderComponent";
+import axios from 'axios';
+import React from "react";
 
 export default function Home() {
   return (
@@ -18,8 +18,8 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.frase}>
-        <p>"lorem ipsum 2.0 turbinado na brasa da corrida"</p>
-        <p>Jorginho, Sacolé 2010</p>
+        <p>"Aquilo que se faz por amor está sempre além do bem e do mal"</p>
+        <p>Friedrich Nietzsche</p>
       </div>
     </main>
   );

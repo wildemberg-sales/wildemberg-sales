@@ -13,4 +13,9 @@
     color: #fff;
     text-decoration: none;
     margin-right: 30px;
+    transition: 2s;
+    border-bottom: 0;
+}
+.header a:hover{
+    border-bottom: 1px solid #fff;
 }
