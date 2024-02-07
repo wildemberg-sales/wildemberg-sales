@@ -1,0 +1,25 @@
+.containerSlide{
+    width: 60%;
+}
+.slide{
+    padding: 50px;
+}
+.slide h3{
+    font-family: 'Urbanist', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.slide p{
+    font-family: 'Urbanist', sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.8px;
+}
+.title{
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title img{
+}

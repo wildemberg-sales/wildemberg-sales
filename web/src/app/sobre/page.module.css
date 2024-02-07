@@ -6,7 +6,7 @@
     padding: 20px 0;
 }
 .main{
-    width: 100vw;
+    width: 99.2vw;
     background-color: #060709;
 }
 .sobre{
@@ -36,4 +36,36 @@
 .sobreImage a{
     color: #fff;
     text-decoration: none;
+}
+
+.skills{
+    text-align: center;
+    margin: 50px 0;
+}
+.skills h2{
+    font-size: 35px;
+}
+.skills img{
+    width: 95%;
+    max-width: 1070px;
+}
+
+.formacao{
+    text-align: center;
+}
+.formacao img{
+    width: 95%;
+    max-width: 900px;
+}
+.formacao h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.space{
+    background-color: #fff;
+    width: 100%;
+    display: block;
+    height: 2px;
+    margin: 100px 0;
 }
