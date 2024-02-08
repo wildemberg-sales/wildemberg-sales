@@ -23,14 +23,50 @@ export default function sobre(){
 
                 <div className={styles.skills}>
                     <h2 className={urbanist.className}>Skills</h2>
-                    <img src="skills.jpg"/>
+                    <img className={styles.skillsDesktop} src="skills.jpg"/>
+                    <div className={styles.skillsMobile}>
+                        <img src="skills-mobile.jpg"/>
+                        <img src="skills-mobile2.jpg"/>
+                    </div>
                 </div>
 
                 <space className={styles.space}></space>
                 
                 <div className={styles.formacao}>
                     <h2 className={urbanist.className}>Formação e Cursos</h2>
+                    
                     <img src="formacao-cursos.jpg"/>
+
+                    <div className={styles.formacaoItens}>
+                        <div className={styles.itens}>
+                            <h3>Universidade de Brasília (UnB)</h3>
+                            <p>Graduando em Engenharia de Software</p>
+                        </div>
+                        <div className={styles.itens}>
+                            <h3>Danki Code</h3>
+                            <p>Curso de Front-End (HTML, CSS, Javascript, ReactJS</p>
+                        </div>
+                        <div className={styles.itens}>
+                            <h3>Danki Code</h3>
+                            <p>Curso de C, Javascript e Typescript</p>
+                        </div>
+                        <div className={styles.itens}>
+                            <h3>Danki Code e Jornada do Dev</h3>
+                            <p>Curso de NodeJs (Express, API Rest, MySQL, MongoDB, Padrão MVC)</p>
+                        </div>
+                        <div className={styles.itens}>
+                            <h3>Danki Code</h3>
+                            <p>Curso de Banco de Dados Relacional e Não Relacional</p>
+                        </div>
+                        <div className={styles.itens}>
+                            <h3>Jornada do Dev</h3>
+                            <p>Curso de React Native, Pyhton, Django</p>
+                        </div>
+                        <div className={styles.itens}>
+                            <h3>Jornada do Dev</h3>
+                            <p>Curso de NextJS</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <FooterComponent/>

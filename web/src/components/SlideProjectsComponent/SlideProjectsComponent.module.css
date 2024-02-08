@@ -1,5 +1,5 @@
 .containerSlide{
-    width: 60%;
+    width: 100%;
 }
 .slide{
     padding: 50px;
@@ -28,4 +28,8 @@
 }
 .title img{
     width: 50px;
+}
+
+@media screen and (max-width: 500px) {
+    
 }

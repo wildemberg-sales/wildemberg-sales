@@ -70,25 +70,59 @@
     margin: 100px 0;
 }
 
+.formacaoItens{
+    display: none;
+}
+.itens{
+    background-color: #003944;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.skillsMobile{
+    text-align: center;
+    display: none;
+}
+.skillsMobile img{
+    width: 100%;
+    padding: 0 10px;
+}
+
 /*Tablet*/
 @media screen and (max-width:900px){
     .main{
-        width: 98vw;
+        width: 100vw;
     }
     .sobre{
         display: block;
         width: 98vw;
     }
     .sobre p{
-        text-align: justify;
+        text-align: center;
         width: 100%;
         padding: 0 5px;
         margin: 0;
+        font-size: 20px;
     }
     .sobreImage{
         margin-bottom: 20px;
     }
     .sobreImage img{
         margin: 0 auto 10px;
+    }
+    .formacao img{
+        display: none;
+    }
+    .formacaoItens{
+        display: inline;
+    }
+    .skillsDesktop{
+        display: none;
+    }
+    .skillsMobile{
+        display: inline;
     }
 }
