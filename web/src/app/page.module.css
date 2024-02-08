@@ -1,4 +1,5 @@
 .main{
+  text-align: center;
   color: #ffff;
 }
 .main h1{
@@ -86,10 +87,18 @@
 
 /*mobile*/
 @media screen and (max-width:500px){
+  .colum1{
+    padding: 0 10px;
+  }
+  .colum1 h1{
+    font-size: 80px;
+  }
   .colum1 h2{
+    font-size: 68px;
     padding: 0;
   }
   .frase{
+    padding: 0 10px;
     margin-bottom: 50%;
   }
 }
