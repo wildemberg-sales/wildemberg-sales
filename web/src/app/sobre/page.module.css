@@ -69,3 +69,26 @@
     height: 2px;
     margin: 100px 0;
 }
+
+/*Tablet*/
+@media screen and (max-width:900px){
+    .main{
+        width: 98vw;
+    }
+    .sobre{
+        display: block;
+        width: 98vw;
+    }
+    .sobre p{
+        text-align: justify;
+        width: 100%;
+        padding: 0 5px;
+        margin: 0;
+    }
+    .sobreImage{
+        margin-bottom: 20px;
+    }
+    .sobreImage img{
+        margin: 0 auto 10px;
+    }
+}

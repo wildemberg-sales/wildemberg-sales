@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
-
 .header{
     color: #fff;
     font-family: 'Urbanist', sans-serif;
@@ -18,4 +16,59 @@
 }
 .header a:hover{
     border-bottom: 1px solid #fff;
+}
+
+.headerMobile{
+    display: none;
+    text-align: end;
+    padding-top: 10px;
+    padding-right: 10px;
+    color: #060709;
+}
+.menuClose{
+    display: none;
+}
+.headerMobile ul{
+    display: none;
+    text-align: center;
+    list-style: none;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #fff;
+    position: absolute;
+    right: 10px;
+    transition: 0.5s;
+}
+.headerMobile li{
+    border-bottom: 0.8px solid #060709;
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+.headerMobile a{
+    color: #060709;
+    font-size: 25px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.headerMobile li:hover{
+    border-bottom: 0.8px solid #6CCDE0;
+    margin-bottom: 10px;
+}
+.headerMobile a:hover{
+    color: #6CCDE0;
+    font-size: 25px;
+    text-decoration: none;
+}
+.headerMobile img{
+    width: 50px;
+}
+
+/*mobile*/
+@media screen and (max-width:500px){
+    .header{
+        display: none;
+    }
+    .headerMobile{
+        display: block;
+    }
 }

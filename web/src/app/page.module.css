@@ -46,3 +46,50 @@
   font-size: 25px;
   margin-bottom: 80px;
 }
+
+/*Tablet*/
+@media screen and (max-width:900px) {
+  .columns{
+    max-width: 100%;
+    display: block;
+    margin: 100px auto;
+  }
+  .colum1{
+    text-align: center;
+    padding-left: 0px;
+    margin: 0;
+  }
+  .colum1 h1{
+    font-size: 88px;
+  }
+  .colum1 h2{
+    padding-left: 40px;
+    font-size: 72px;
+    margin-top: -50px;
+    letter-spacing: 45px;
+  }
+  .colum2{
+    width: 250px;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .colum2 img{
+    margin: 0;
+  }
+  .frase{
+    margin-bottom: 300px;
+  }
+}
+
+/*mobile*/
+@media screen and (max-width:500px){
+  .colum1 h2{
+    padding: 0;
+  }
+  .frase{
+    margin-bottom: 50%;
+  }
+}

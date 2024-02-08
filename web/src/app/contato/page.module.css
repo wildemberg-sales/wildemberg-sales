@@ -17,3 +17,13 @@
 .icons img{
     margin-right: 80px;
 }
+
+/*Tablet*/
+@media screen and (max-width:900px){
+    .icons{
+        justify-content: space-evenly;
+    }
+    .icons img{
+        margin: 0;
+    }
+}
