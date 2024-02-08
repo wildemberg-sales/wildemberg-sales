@@ -94,7 +94,8 @@
     font-size: 80px;
   }
   .colum1 h2{
-    font-size: 68px;
+    text-align: start;
+    font-size: 65px;
     padding: 0;
   }
   .frase{
