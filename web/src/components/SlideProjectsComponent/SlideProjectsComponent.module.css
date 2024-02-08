@@ -14,6 +14,11 @@
     font-family: 'Urbanist', sans-serif;
     font-size: 20px;
     letter-spacing: 0.8px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.slide img{
+    width: 300px;
 }
 .title{
     margin: 10px 0;
@@ -22,4 +27,5 @@
     align-items: center;
 }
 .title img{
+    width: 50px;
 }

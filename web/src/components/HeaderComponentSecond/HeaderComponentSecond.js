@@ -7,7 +7,7 @@ const urbanist = Urbanist({
     subsets:['latin']
 })
 
-export default function HeaderComponent(){
+export default function HeaderComponentSecond(){
     return(
         <header className={style.header}>
             <Link className={urbanist.className} href={"/"}>Home</Link>

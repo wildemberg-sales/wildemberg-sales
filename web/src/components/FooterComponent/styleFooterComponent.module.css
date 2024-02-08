@@ -6,7 +6,8 @@
     font-size: 22px;
     font-family: 'Urbanist', sans-serif;
     display: flex;
-    margin: 20px auto;
+    margin: 0 auto;
+    padding: 15px 0;
     width: 90%;
     justify-content: space-between;
 }

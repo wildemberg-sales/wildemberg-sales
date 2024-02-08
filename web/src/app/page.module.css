@@ -1,22 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Bayon&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
-
 .main{
   color: #ffff;
 }
 .main h1{
-  font-family: 'Bayon', sans-serif;
   font-size: 140px;
-  font-weight: 180;
+  letter-spacing: 1px;
   color:#ffff;
 }
 .main h2{
-  font-family: 'Cutive Mono', monospace;
   font-size: 120px;
-  letter-spacing: 60px;
+  letter-spacing: 68px;
   font-weight: 150;
   display: block;
-  margin-top: -100px;
+  margin-top: -90px;
   color:#ffff;
 }
 
@@ -24,7 +19,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 180px 0;
+  margin: 200px 0 100px 0;
 }
 .colum1{
   padding-left: 100px;
@@ -48,5 +43,6 @@
 
 .frase{
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
+  margin-bottom: 80px;
 }
