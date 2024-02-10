@@ -25,7 +25,7 @@ export default function sobre(){
                     <h2 className={urbanist.className}>Skills</h2>
                     <img className={styles.skillsDesktop} src="skills.jpg"/>
                     <div className={styles.skillsMobile}>
-                        <img src="skills-mobile.jpg"/>
+                        <img style={{paddingRight:"30px"}} src="skills-mobile.jpg"/>
                         <img src="skills-mobile2.jpg"/>
                     </div>
                 </div>

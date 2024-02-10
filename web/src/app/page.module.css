@@ -87,17 +87,23 @@
 
 /*mobile*/
 @media screen and (max-width:500px){
+  .columns{
+    width: 100%;
+  }
   .colum1{
+    text-align: center;
+    width: 100%;
     padding: 0 10px;
   }
   .colum1 h1{
-    font-size: 80px;
+    font-size: 400%;
+    padding: 0px;
   }
   .colum1 h2{
-    letter-spacing: 40px;
-    text-align: start;
-    font-size: 65px;
-    padding: 0;
+    margin-top: -10%;
+    letter-spacing: 20px;
+    font-size: 300%;
+    padding: 0px;
   }
   .frase{
     padding: 0 10px;
