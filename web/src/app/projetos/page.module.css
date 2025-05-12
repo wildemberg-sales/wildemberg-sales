@@ -82,20 +82,16 @@
 }
 
 @media screen and (max-width:500px){
-    .pesquisa{
+    .pesquisa .pesquisa2{
         display: block;
-        text-align: center;
-    }
-    .pesquisa2{
-        display: block;
-        text-align: center;
+        text-align: start;
     }
     .infoPesquisa{
-        text-align: center;
+        text-align: start;
         margin: 0 auto;
         width: 90%;
     }
     .infoPesquisa h3{
-        text-align: center;
+        text-align: start;
     }
 }

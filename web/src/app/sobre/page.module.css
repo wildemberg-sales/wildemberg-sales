@@ -14,6 +14,8 @@
     justify-content: space-around;
     align-items: center;
     margin-top: 50px;
+    background-color: #12151b;
+    padding: 20px 0;
 }
 .sobre img{
     width: 100%;
@@ -22,7 +24,7 @@
 .sobre p{
     max-width: 1000px;
     margin-left: 20px;
-    font-size: 30px;
+    font-size: 1.5em;
 }
 .sobre span{
     color:#267b8a;
@@ -38,20 +40,43 @@
     text-decoration: none;
 }
 
+.sobreAreas{
+    padding: 20px 0;
+    background-color: #12151b;
+}
+.sobreAreas h3{
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.sobreAreas p{
+    font-size: 18px;
+    text-align: start;
+    border-bottom: 0.5px solid #cccccc;
+    margin-bottom: 5px;
+}
+
 .skills{
     text-align: center;
-    margin: 50px 0;
+    margin: 60px 0;
+    padding: 20px 0;
 }
 .skills h2{
     font-size: 35px;
+    margin-bottom: 30px;
 }
-.skills img{
-    width: 95%;
-    max-width: 1070px;
+.skillsimg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.skillsimg img{
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .formacao{
-    text-align: center;
+    border-top: 1px solid white;
+    padding: 20px 0;
 }
 .formacao img{
     width: 95%;
@@ -60,6 +85,10 @@
 .formacao h2{
     font-size: 35px;
     margin-bottom: 30px;
+    text-align: center;
+}
+.formacao h3{
+    font-size: 25px;
 }
 
 .space{
@@ -69,27 +98,51 @@
     height: 2px;
     margin: 100px 0;
 }
+/* formaçao itens */
+.formacaoDiv{
+    padding: 20px 10px;
+    border: solid 1px white;
+    border-right: 0px;
+    border-left: 0px;
+    list-style: inside;
+    margin-top: 20px;
+}
+.formacaoDiv h4{
+    margin: 15px 0;
+}
+.formacaoDivTwo{
+    padding: 20px 10px;
+    border: solid 1px white;
+    border-right: 0px;
+    border-left: 0px;
+    width: 49%;
+    margin-top: 20px;
+    background-color: #12151b;
 
-.formacaoItens{
-    display: none;
 }
-.itens{
-    background-color: #003944;
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-    border-radius: 20px;
-    margin-bottom: 10px;
+.formacaoDivTwo h4{
+    margin-top: 20px;
 }
-
-.skillsMobile{
-    text-align: center;
-    display: none;
+.formacaoDivTwo h3{
+    font-size: 25px;
 }
-.skillsMobile img{
+.formacaoDivTwo ul{
+    list-style: inside;
+}
+.formacaoDivTwoList{
+    margin: 10px 0 20px;
+}
+.formacaoDivTwoList li{
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+}
+.formacaoDivTwoCol{
+    display: flex;
     width: 100%;
-    padding: 0 10px;
+    justify-content: space-between;
 }
+
 
 /*Tablet*/
 @media screen and (max-width:900px){
@@ -101,9 +154,8 @@
         width: 98vw;
     }
     .sobre p{
-        text-align: center;
         width: 100%;
-        padding: 0 5px;
+        padding: 0 10px;
         margin: 0;
         font-size: 20px;
     }
@@ -122,7 +174,20 @@
     .skillsDesktop{
         display: none;
     }
-    .skillsMobile{
-        display: inline;
+    .formacaoDivTwoCol{
+        display: block;
+    }
+    .formacaoDivTwo{
+        width: 95%;
+        display: block;
+        margin: 10px auto;
+    }
+    .sobreAreas{
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+    .sobreAreas p{
+        margin-bottom: 5px;
     }
 }
